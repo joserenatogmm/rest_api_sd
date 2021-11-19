@@ -24,7 +24,8 @@ class AlunoController extends Controller
         if($aluno->save()) {
             return response([
                 'success' => true,
-                'message' => 'The student has been registered.'
+                'message' => 'The student has been registered.',
+                'id' => $aluno->id
             ], 201);
         } else {
             return response([

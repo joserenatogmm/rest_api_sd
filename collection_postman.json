@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "ad4e35d1-41dc-49f7-b918-82d88487e0b7",
+		"name": "Trabalho SD - Rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Adicionar Aluno",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nome",
+							"value": "JOSÉ RENATO GARCIA MARTINEZ MARTINS",
+							"type": "text"
+						},
+						{
+							"key": "curso",
+							"value": "CIÊNCIA DA COMPUTAÇÃO",
+							"type": "text"
+						},
+						{
+							"key": "semestre",
+							"value": "8",
+							"type": "text"
+						},
+						{
+							"key": "registro_academico",
+							"value": "579289",
+							"type": "text"
+						},
+						{
+							"key": "cpf",
+							"value": "48907493812",
+							"type": "text"
+						},
+						{
+							"key": "cidade",
+							"value": "MARÍLIA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Alunos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alunos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Visualizar Aluno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alunos/6f6324c6-724a-404f-81ec-b159012b1750",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"6f6324c6-724a-404f-81ec-b159012b1750"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Aluno",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nome",
+							"value": "JOSÉ RENATO GARCIA MARTINEZ MARTINS",
+							"type": "text"
+						},
+						{
+							"key": "curso",
+							"value": "CIÊNCIA DA COMPUTAÇÃO",
+							"type": "text"
+						},
+						{
+							"key": "semestre",
+							"value": "8",
+							"type": "text"
+						},
+						{
+							"key": "registro_academico",
+							"value": "579289",
+							"type": "text"
+						},
+						{
+							"key": "cpf",
+							"value": "48907493812",
+							"type": "text"
+						},
+						{
+							"key": "cidade",
+							"value": "MARÍLIA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos/6f6324c6-724a-404f-81ec-b159012b1750",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"6f6324c6-724a-404f-81ec-b159012b1750"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir Aluno",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nome",
+							"value": "JOSÉ RENATO GARCIA MARTINEZ MARTINS",
+							"type": "text"
+						},
+						{
+							"key": "curso",
+							"value": "CIÊNCIA DA COMPUTAÇÃO",
+							"type": "text"
+						},
+						{
+							"key": "semestre",
+							"value": "8",
+							"type": "text"
+						},
+						{
+							"key": "registro_academico",
+							"value": "579289",
+							"type": "text"
+						},
+						{
+							"key": "cpf",
+							"value": "48907493812",
+							"type": "text"
+						},
+						{
+							"key": "cidade",
+							"value": "MARÍLIA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos/6f6324c6-724a-404f-81ec-b159012b1750",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"6f6324c6-724a-404f-81ec-b159012b1750"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
