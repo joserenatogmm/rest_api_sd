@@ -1,4 +1,4 @@
-# API REST - Sistemas Distribuidos
+# API REST - Sistemas Distribuídos
 
 ### Alunos
  - Everton Martins dos Santos (57765-0)
